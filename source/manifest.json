@@ -1,0 +1,29 @@
+{ 
+  "actions": [ 
+    { 
+      "name": "distance", 
+      "type": "node", 
+      "parameters": [ 
+        { 
+          "name": "String 1", 
+          "type": "string" 
+        }, 
+        { 
+          "name": "String 2", 
+          "type": "string"
+        } 
+      ], 
+      "response": [ 
+        { 
+          "name": "Similarity", 
+          "type": "number",
+          "default" : 0
+        } 
+      ], 
+      "commandline": [ 
+        "return require('levenshtein').distance(%1, %2);" 
+      ] 
+    } 
+  ], 
+  "name": "Levenshtein distance (node)"
+ }
