@@ -12,3 +12,6 @@ Here is my simple explanation:
 2) Open your robot and via Desktop Automation add new step called "Integration" → "Custom Action".
 3) When everything is ok, you'll be able to select "Levenshtein distance" connector from the drop-down list with one Action "distance".
 4) It has two inputs "String 1" (Text) and "String 2" (Text) and one output "Similarity" (Integer)
+
+# RPA step setup
+<img src="https://github.com/infomatic-cz/levenshtein_distance/blob/main/RPA%20setup.png" />
